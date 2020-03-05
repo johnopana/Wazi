@@ -42,12 +42,17 @@ body{
   </td>
     <td>
     <?php
-    if(isset($_SESSION['login']));
+  if(isset($_SESSION['login']));
     {
-        echo
+        echo "<div align=\"right\"><strong><a href=\"index.php\">Home </a>|<a href=\"signout.php\">signout</a></strong></div>";
+}
+
+    {
+        echo "&nbsp;";
 
     }
-
-
-
-
+    ?>
+    </td>
+    </tr>
+    
+-</table>
